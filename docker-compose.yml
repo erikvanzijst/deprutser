@@ -1,6 +1,6 @@
 services:
   web:
-    image: registry.home:5000/www
+    image: registry.home:80/www
     build:
       dockerfile: Dockerfile
       context: .
